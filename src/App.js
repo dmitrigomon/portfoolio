@@ -1,6 +1,6 @@
 import {Route, Routes, Link } from "react-router-dom";
 import './App.css';
-im
+
    
 function App() {
   return (
@@ -12,45 +12,30 @@ function App() {
           <h2>Hello, I am Blaa Blaatens and this website is made for Programming or Design to show my portfolio</h2>
         </div>
       <div>
-        <p className="horz-line">________</p>
+        <hr className="horz-line" />
       </div>
       <br/>
 
       <div className="kast">
         <Link to="/Courses">
-          <img className="small-images" src="/XD-user design.png" alt="/XD-user design.png" />
-          <p>Work done related to <strong>USER DESIGN</strong></p>
+          <div><img src="/XD-user design.png" alt="/XD-user design.png" />
+          <p>Work done related to <strong>USER DESIGN</strong></p></div>
           </Link>
 
         <Link to="/Hobbies">
-          <img className="small-images" src="/Hobbies-image.jfif" alt="/Hobbies-logo.jfif" />
-        
-          <p>Work done related to <strong>HOBBIES</strong></p>
+          <div><img src="/Hobbies-image.jfif" alt="/Hobbies-logo.jfif" />
+          <p>Work done related to <strong>HOBBIES</strong></p></div>
           </Link>
         
         <Link to="/Work">
-          <img className="small-images" src="/PS-image.jfif" alt="/PS-logo.jfif" />
-       
-          <p>Work done related to <strong>PHOTOSHOP</strong></p>
+          <div><img src="/PS-image.jfif" alt="/PS-logo.jfif" />
+          <p>Work done related to <strong>PHOTOSHOP</strong></p></div>
            </Link>
       </div>
 
       <Link to="">
         <button>Avaleht</button>
       </Link>
-
-      {/* <Link to="/Courses">
-        <button>Courses</button>
-      </Link>
-
-      <Link to="/Hobbies">
-        <button>Hobbies</button>
-      </Link>
-
-      <Link to="/Work">
-        <button>Work</button>
-      </Link> */}
-
 
       <Routes>
         <Route path=""       element={<div>Avaleht</div>}/>
