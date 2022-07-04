@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.pea-pilt {
+  width:800px;
+  border-radius: 5px;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+h2 {
+  font-size: 16px;
+  font-style: normal;
+}
+
+.small-images {
+height: 100px;
+width: 100px;
+}
+
+.kast {
+  display:flex;
+  justify-content: space-evenly;
+  background-color: white;
+}
